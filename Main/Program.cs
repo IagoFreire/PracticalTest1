@@ -12,7 +12,6 @@ namespace GrosvenorInHousePracticum
             {
                 var unparsedOrder = Console.ReadLine();
                 var output = server.TakeOrder(unparsedOrder);
-                Console.WriteLine(output);
             }
         }
     }
